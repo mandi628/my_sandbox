@@ -18,3 +18,7 @@ print("_With 'new line indicator'_")
 print("I am Iron Man. \n" + "No, I am Tony Stark. \n" + "No, I am Poppy.")
 
 print("I am Poppy\n" * 100)
+
+answer = input("Is this working?"):
+  if (answer) = "yes"
+  print(":)"), else return(":(")
