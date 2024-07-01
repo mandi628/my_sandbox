@@ -8,7 +8,7 @@
 # taking these words and separating them by individual spaces, with no extra characters. You
 # should ignore all the other words.
 
-decode(message_file):
+def decode(message_file):
 	#message filepath lookup
 	if message.startswith(%d):
 		return(words.txt[2:])
@@ -26,3 +26,7 @@ key6 = 5 you
 
 
 
+# 1. Read the message file
+# 2. Pull the last character in each line of the message file
+# 3. Look up the number in the key file
+# 4. Return the corresponding word from the key file.
