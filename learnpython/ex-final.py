@@ -220,3 +220,22 @@ print(car2.description())
 print(car3.description())
 print(car4.description())
 
+# learnpython.org - Dictionaries
+print("__Dictionaries__")
+# Using a phonebook created with the dictionary format, add "Jake" to the phonebook
+# with phone number 938273443, and remove Jill from the phonebook.
+phonebook = {
+	"John" : 938477566,
+	"Jack" : 938377264,
+	"Jill" : 947772781
+}
+print("Phonebook v1: %s" % phonebook)
+# your code goes here
+phonebook["Jake"] = 938273443
+del phonebook["Jill"]
+print("Phonebook v2: %s" % phonebook)
+# testing code
+if "Jake" in phonebook:
+	print("Jake is listed in the phonebook.")
+if "Jill" not in phonebook:
+	print("Jill is not listed in the phonebook.")
