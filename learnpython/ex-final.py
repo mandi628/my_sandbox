@@ -239,3 +239,15 @@ if "Jake" in phonebook:
 	print("Jake is listed in the phonebook.")
 if "Jill" not in phonebook:
 	print("Jill is not listed in the phonebook.")
+
+# learnpython.org - Modules & Packages
+# Print an alphabetically sorted list of all the functions in the re module containing
+# the word find.
+print("__Modules & Packages__")
+import re
+find_members = []
+for member in dir(re):
+	if "find" in member:
+		find_members.append(member)
+
+print(sorted(find_members))
