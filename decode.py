@@ -7,22 +7,31 @@
 # end of each pyramid line (in this example, 1, 3, and 6). The decoded message is formed by
 # taking these words and separating them by individual spaces, with no extra characters. You
 # should ignore all the other words.
+key = {
+	"1" : "i",
+	"2" : "dogs",
+	"3" : "love",
+	"4" : "cats",
+	"5" : "you",
+	"6" : "computer"
+}
+
+message_file = open("message_file.txt")
 
 def decode(message_file):
-	#message filepath lookup
-	if message.startswith(%d):
-		return(words.txt[2:])
+	for code in message_file:
+		print(code[-2])
+
+
+decode(message_file)
+print(message_file)
+
+message_file.close()
 
 msg1 = "  1"
 msg2 = " 2 3"
 msg3 = "4 5 6"
 
-key1 = 3 love
-key2 = 6 computer
-key3 = 2 dogs
-key4 = 4 cats
-key5 = 1 i
-key6 = 5 you
 
 
 
