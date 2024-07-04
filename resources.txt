@@ -1,0 +1,2 @@
+Think Python, 3rd edition - https://allendowney.github.io/ThinkPython/
+ (2nd edition is downloaded)
