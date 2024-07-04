@@ -251,3 +251,14 @@ for member in dir(re):
 		find_members.append(member)
 
 print(sorted(find_members))
+
+# learnpython.org - Numpy Arrays
+print("__Numpy Arrays__")
+weight_kg = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
+
+import numpy as np
+
+np_weight_kg = np.array(weight_kg)
+
+np_weight_lbs = np_weight_kg * 2.2
+print("Numpy weight in lbs: %s" % np_weight_lbs)
