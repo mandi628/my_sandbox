@@ -7,26 +7,30 @@
 # end of each pyramid line (in this example, 1, 3, and 6). The decoded message is formed by
 # taking these words and separating them by individual spaces, with no extra characters. You
 # should ignore all the other words.
-key = {
-	"1" : "i",
-	"2" : "dogs",
-	"3" : "love",
-	"4" : "cats",
-	"5" : "you",
-	"6" : "computer"
-}
 
+
+# Open message file
 message_file = open("message_file.txt")
 
+# Define key
+code = {"1": "i", "2": "dogs", "3": "love", "4": "cats", "5": "you", "6": "computers"}
+
+# Define decode function
 def decode(message_file):
-	for msg in message_file:
-		print(msg[-2])
+	for msg in message_file: #Read one line of message_file
+		return msg #Return the last character of the line
+	print(msg) #Look up the character in the key
+	# Return the word from the key
 
 
+# Run the function
 decode(message_file)
-print(message_file)
+# Print the message as a sentence.
+msg = decode(message_file)
+print(msg)
 
 message_file.close()
+
 
 # 1. Read the message file
 # 2. Pull the last character in each line of the message file
