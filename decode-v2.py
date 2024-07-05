@@ -7,16 +7,14 @@ def cipher():
 		cipher = message_file.readlines()
 		return cipher
 
-cipher = cipher()
-print(cipher)
+cipher_list = cipher()
+print(cipher_list)
 
-def code():
-	for code in cipher:
-		code_str = cipher
-		code = [cipher[-2]]
-		return code
+def code(cipher_list):
+	if cipher_list != " ":
+		return cipher_list[-2]
 
-code = code()
+code = code(cipher_list)
 print(code)
 
 #def decode(message_file):
