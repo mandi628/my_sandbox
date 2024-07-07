@@ -33,3 +33,5 @@ print("Characters = %s" % char)
 
 junk = decode(message_file)
 print(junk)
+
+# I noticed one tiny flaw. When reading the text file in the text(), it is starting with line 2 of the file, instead of line 1. Is that an indexing thing?
