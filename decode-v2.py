@@ -18,13 +18,14 @@ def code():
 	while x < len(cipher):
 		code.append(cipher[x][-2])
 		x += 1
+	return code
 
 code = code()
 print(code)
 
-#msg = {'6': 'computers', '3': 'love', '1': 'i', '4': 'dogs', '2': 'cats'}
+msg = {'6': 'computers', '3': 'love', '1': 'i', '4': 'dogs', '2': 'cats'}
 
-#print(msg)
+print(msg)
 
 #msg1 = (kode[0])
 #msg2 = (kode[1])
@@ -33,13 +34,19 @@ print(code)
 #print(msg.get(msg2))
 #print(msg.get(msg3))
 
-#def decode(message_file):
-#	for msg in kode:
-#		msg = kode()
-#		key.get(msg)
-#		return msg
+print(code[0])
+print(msg.get(code[0]))
 
-#decode(message_file)
+def decode(message_file):
+	x = 0
+	word = []
+	while x < len(code):
+		word.append(msg.get(code[x]))
+		x += 1
+	return word
+
+decode(message_file)
+print(word)
 
 #close("message_file.txt")
 
