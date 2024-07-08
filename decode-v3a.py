@@ -1,5 +1,6 @@
-message_file = open("message_file1.txt")
-#file = open(message_file)
+filename = input("What file would you like to decode? ")
+message_file = filename
+file = open(message_file)
 
 msg = {'6': 'computers', '3': 'love', '1': 'i', '4': 'dogs', '2': 'cats', '7': 'and'}
 
@@ -24,7 +25,7 @@ def decode(message_file):
 		junk.append(msg.get(char[y]))
 		y += 1
 	return junk
-	close("message_file1.txt")
+	close(message_file)
 
 text = text()
 print("Text = %s" % text)

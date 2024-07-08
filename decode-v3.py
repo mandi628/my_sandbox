@@ -16,7 +16,7 @@ def char():
 		x += 1
 	return char
 
-def decode(message_file):
+def decode(message_file): # ? Would this still work if I didn't have the "message_file" parameter here?
 	y = 0
 	junk = []
 	while y < len(char):
