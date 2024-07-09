@@ -1,7 +1,7 @@
+#!/usr/bin/env python3
 # A script to convert distance from miles to kilometers, and vice versa
-#!/usr/bin/env python
 
-measure = input("Please enter miles or kilometers: ")
+measure = input("Please enter 'miles' or 'kilometers': ")
 measure_str = str(measure)
 
 if measure_str == "miles":
