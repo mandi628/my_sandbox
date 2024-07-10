@@ -36,3 +36,11 @@ print("Capitalize: " + a.capitalize())
 print("Swapcase: " + a.swapcase())
 print("Uppercase: " + a.upper())
 print("Lowercase: " + a.lower())
+
+print("\n~~~~~~~~\n")
+print("Q7-1")
+ten = "Guten Morgen"[2:5]
+print(ten.upper())
+print("Q7-2")
+ace = "RaceTrack"[1:4]
+print(ace.capitalize())
