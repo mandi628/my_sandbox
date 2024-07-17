@@ -1,6 +1,12 @@
-message_file = open("message_file.txt")
+#! /usr/bin/env python3
 
-msg = {'6': 'computers', '3': 'love', '1': 'i', '4': 'dogs', '2': 'cats'}
+filename = input("Enter the filename you'd like to decode: ")
+#file = open("messages/message_file1.txt")
+file = open(filename)
+message_file = file
+
+msg = {'6': 'computers', '3': 'love', '1': 'I', '4': 'dogs', '5': 'you', '2': 'cats', '7': 'meet', '8': 'elephants', '9': 'parade', '0': 'party', 's': 'Suzi', 't': 'Tess', 'm': 'Micky', 'h': 'Ashleigh', 'a': 'Abbie', 'c': 'Mama'
+}
 
 def text():
 	text = []
@@ -23,16 +29,17 @@ def decode(message_file): # ? Would this still work if I didn't have the "messag
 		junk.append(msg.get(char[y]))
 		y += 1
 	return junk
-	close("message_file.txt")
 
 text = text()
-print("Text = %s" % text)
+#print("Text = %s" % text)
 
 char = char()
-print("Characters = %s" % char)
+#print("Characters = %s" % char)
 
 junk = decode(message_file)
-print(junk)
+msg = ' '.join([str(word) for word in junk])
+print(msg)
+file.close()
 
 #z = 0
 #while z < len(junk):
