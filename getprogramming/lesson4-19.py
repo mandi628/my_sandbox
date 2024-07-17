@@ -23,7 +23,7 @@
 # ~ Report all valid words you can form with your tiles in a tuple of strings, for
 #    example, ('ink', 'oil', 'kiln')
 
-words = "art\nhue\nink\noil\npen\nwax\nclay\ndraw\nfilm\nkiln\npastel\nshading\nwatercolor\ncrosshatching"
+words = "art\nhue\nink\noil\npen\nwax\nclay\ndraw\nfilm\nkiln\npastel\nshading\nwatercolor\ncrosshatching\n"
 tiles = input("Enter your tiles: ")
 
 all_valid_words = () #empty tuple for valid words
