@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 cd ~/repos/my_sandbox
 
 git status

@@ -6,6 +6,9 @@ git status
 
 git add .
 
-git commit -m "Daily update"
+echo "Please enter commit message: "
+read msg
+
+git commit -m "$msg"
 
 git push
