@@ -7,3 +7,27 @@ Roadmaps.sh - lots of great links and checklists of things to learn about
 -- Linux
 -- JavaScript
 -- Go
+
+Free Linux Crash Course with Labs
+freeCodeCamp.org - https://freecodecamp.org/news/free-linux-crash-course-with-labs
+-- Introduction
+-- Log into & Remote Consoles
+-- Read and Use System Documentation
+-- Free Labs - Log in to the Labs
+-- Working With Files and Directories
+-- Create and Manage Hard Links
+-- Create and Manage Soft Links
+-- Free Labs - Files, Directories, Hard and Soft Links
+-- List, Set and Change File Permissions
+-- Search Files with Grep
+-- Analyze Text with Regular Expressions
+-- Extended Regular Extensions
+-- Manage Local User Accounts
+-- Free Labs - Manage User Accounts and Groups
+-- Configure User Resource Limits
+-- Manage User Privileges
+-- Free Labs - Configure User Resource Limits and User Privileges
+-- Manage Access to the Root Account
+
+learnshell.org - same creators as learnpython.org
+-- They also have Java, HTML, Go, C, C++, JavaScript, TypeScript, PHP, C#, Perl, Ruby, Scala, & SQL
