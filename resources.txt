@@ -1,2 +1,9 @@
 Think Python, 3rd edition - https://allendowney.github.io/ThinkPython/
  (2nd edition is downloaded)
+
+Roadmaps.sh - lots of great links and checklists of things to learn about
+-- DevOps
+-- Python
+-- Linux
+-- JavaScript
+-- Go
