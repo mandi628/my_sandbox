@@ -31,3 +31,14 @@ freeCodeCamp.org - https://freecodecamp.org/news/free-linux-crash-course-with-la
 
 learnshell.org - same creators as learnpython.org
 -- They also have Java, HTML, Go, C, C++, JavaScript, TypeScript, PHP, C#, Perl, Ruby, Scala, & SQL
+
+ruby-lang.org/en/documentation/ - list of online sources for learning Ruby
+-- Ruby Koans (https://rubykoans.com)
+-- Why's (Poignant) Guide to Ruby (https://poignant.guide)
+-- Ruby Essentials (https://www.techotopia.com/index.php/Ruby_Essentials)
+-- Learn to Program (https://pine.fm/LearnToProgram/)
+-- Learn Ruby the Hard Way (https://learncodethehardway.org/ruby/)
+
+learnrubyonline.org - same creators as learnpython.org
+
+learn-js.org - same as learnpython.org
