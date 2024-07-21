@@ -1,3 +1,10 @@
+# Get Programming: Learn to Code with Python, by Ana Bell
+
+# Unit 5: Organizing Your Code Into Reuseable Blocks
+# Lesson 21: Achieveing modularity and abstraction with fuctions
+
+print("Listing 21.3 - How to make a call to a function")
+
 def word_length(word1, word2):
     word = word1 + word2
     return len(word)

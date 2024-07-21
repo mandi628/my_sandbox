@@ -77,3 +77,20 @@ print("Quick check 21.4")
     return (True and True) # Return the Boolean value of True
 3. def func_3(head, shoulders, knees):
     return("and toes") # It would return the string "and toes"
+
+print("Section 21.3 - Documenting your fuctions")
+docstrings are abstractions of your functions
+
+def take_attendance(classroom, who_is_here):
+    """
+    classroom, tubple of strings
+    who_is_here, tuple of strings
+    Prints the names of all kids in class who are also in who_is_here
+    Returns a string, "finished taking attendance"
+    """
+
+A docstring starts inside the function, indented. The triple quotes denote the start and end
+of the docstring. A docstring includes the following:
+-- Each input parameter name and type
+-- A brief overview of what the function does
+-- The meaning of the return value and the type
