@@ -7,6 +7,10 @@
 
 # mandi628.codes@gmail.com; github.com/mandi628
 
+# Upgrade notes:
+#    -- randomize card selection (currently, the 8 hearts is set)
+#    -- remember cards chosen and don't allow for reselection
+
 print("Let's Play Guess My Card!")
 
 def guessed_card(number, suit, bet):
