@@ -1,8 +1,12 @@
 # README.md
 
-(Introduction)
+Welcome to Novelist, an open source creative writing app for all kinds of creative writers.
+It is my hope to create an app for creative writers that will allow them to work on projects
+on multiple devices, and allow them to sync accross Google Docs, GitHub, or Dropbox.
 
-Project Title: This is the name of the project. It describes the whole project in one sentence, and helps people understand what the main goal and aim of the project is.
+This project is inspired by yWriter, but hopes to fill a void allowing writers to work in real
+time. Since yWriter is currently a desktop program, I'm hoping to bring it to the world of
+mobile use, which is not currently a functionality it offers.
 
 - What was your motivation?
 - Why did you build this project?
