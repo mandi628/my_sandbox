@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
     - Area is the total length times width, minus the negative space
     - Volume is area times height
 - Figure out how to simplify the functions for volume (refer to area, then multiply times height)
+- Make this a fully-functioning executeable app
 
 ### Changed
 
