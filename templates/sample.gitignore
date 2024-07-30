@@ -1,0 +1,8 @@
+# This is a sample .gitignore file
+# It usually is just named .gitignore, which is a hidden file
+
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
