@@ -1,6 +1,0 @@
-files.txt
-greetings.sh
-output.txt
-run_all.sh
-test1.sh
-your_name.sh
