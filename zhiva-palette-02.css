@@ -1,0 +1,18 @@
+
+/* CSS HEX */
+:root {
+    --onyx: #393e41ff;
+    --mantis: #82d173ff;
+    --light-green: #abfaa9ff;
+    --cadet-gray: #95a3b3ff;
+    --sandy-brown: #ffb17aff;
+}
+
+/* CSS HSL */
+:root {
+    --onyx: hsla(203, 7%, 24%, 1);
+    --mantis: hsla(110, 51%, 64%, 1);
+    --light-green: hsla(119, 89%, 82%, 1);
+    --cadet-gray: hsla(212, 16%, 64%, 1);
+    --sandy-brown: hsla(25, 100%, 74%, 1);
+}

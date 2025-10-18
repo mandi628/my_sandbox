@@ -1,0 +1,36 @@
+:root {
+    --ivory: #f5fbefff;
+    --cambridge-blue: #92ad94ff;
+    --reseda-green: #748b75ff;
+    --rose-ebony: #503d42ff;
+    --yellow-green: #84c318ff;
+}
+
+.test {
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+    border: 5px solid var(--ivory);
+    margin: auto;
+    background: var(--reseda-green);
+    color: var(--ivory)
+}
+
+body {
+    background: var(--rose-ebony);
+}
+
+.standard-box {
+    width: 300px;
+    padding: 40px;
+    border: 5px solid var(--rose-ebony);
+    background: var(--ivory);
+}
+
+.alternate-box {
+    width: 300px;
+    padding: 40px;
+    border: 5px solid var(--rose-ebony);
+    box-sizing: border-box;
+    background: var(--cambridge-blue);
+}
